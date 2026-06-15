@@ -1,0 +1,593 @@
+{
+  "@@locale": "bg",
+
+  "appTitle": "Sprout",
+  "appTagline": "гледай как парите ти растат.",
+
+  "navHome": "Начало",
+  "navStats": "Статистика",
+  "navGoals": "Цели",
+  "navYou": "Профил",
+
+  "commonNext": "Напред",
+  "commonBack": "Назад",
+  "commonCancel": "Отказ",
+  "commonSave": "Запази",
+  "commonDelete": "Изтрий",
+  "commonKeep": "Остави",
+  "commonAdd": "Добави",
+  "commonNew": "Ново",
+
+  "authLogIn": "Вход",
+  "authSignUp": "Регистрация",
+  "authFieldName": "Име",
+  "authFieldEmail": "Имейл",
+  "authFieldPassword": "Парола",
+  "authCreateAccount": "Създай профил",
+  "authNameRequired": "Името е задължително",
+  "authEmailRequired": "Имейлът е задължителен",
+  "authEmailInvalid": "това не изглежда съвсем наред — пробвай пак 🌱",
+  "authPasswordRequired": "Паролата е задължителна",
+  "authPasswordTooShort": "Паролата трябва да е поне 6 символа",
+  "authEmailLooksOff": "Имейлът не изглежда наред",
+  "authPasswordRuleSignup": "Паролата трябва да е поне 6 символа",
+  "authAccountExists": "Вече има профил с този имейл",
+  "authNoMatch": "Няма такъв профил — провери данните",
+
+  "onbWelcomeGreetingGeneric": "ей,",
+  "onbWelcomeGreetingNamed": "ей {name},",
+  "@onbWelcomeGreetingNamed": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "onbWelcomeIntro": "аз съм Sprout.",
+  "onbWelcomeSubtitle": "хайде да изградим парите ти — заедно.",
+  "onbLetsGrow": "да растем 🌱",
+
+  "onbBudgetTitle": "задай месечен бюджет",
+  "onbBudgetSubtitle": "без напрежение — можеш да го промениш по всяко време.",
+  "onbBudgetCurrency": "Валута",
+  "onbBudgetPerDay": "това е около {amount}/ден.",
+  "@onbBudgetPerDay": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+
+  "onbGoalTitle": "за какво спестяваш?",
+  "onbGoalSubtitle": "избери една за начало. после ще добавиш още.",
+  "onbGoalPresetTokyo": "Пътуване до Токио",
+  "onbGoalPresetMacbook": "MacBook",
+  "onbGoalPresetEmergency": "Спешен фонд",
+  "onbGoalPresetConcert": "Концерт",
+  "onbGoalCreateOwn": "Или си направи своя",
+  "onbGoalCustom": "Собствена цел",
+  "onbGoalNameField": "Име на целта",
+  "onbGoalTargetField": "Сума",
+  "onbGoalDeadlineHint": "Краен срок (по избор)",
+
+  "onbQuizTitle": "бърза проверка на типа",
+  "onbQuizSubtitle": "помага ми да настроя тона. няма грешни отговори.",
+  "onbQuizResult": "ти си {type} — ясно. ще го имам предвид.",
+  "@onbQuizResult": {
+    "placeholders": { "type": { "type": "String" } }
+  },
+  "personalitySaver": "Спестител",
+  "personalityTreater": "Глезла",
+  "personalityGoalChaser": "Цел-гонещ",
+  "personalityImpulse": "Импулсивен",
+
+  "onbQuizQ1": "Виждаш суичър за 40 €. Ти…",
+  "onbQuizQ1Saver": "Подминаваш — пазиш за нещо по-добро",
+  "onbQuizQ1Treater": "Купуваш го. Заслужи си го.",
+  "onbQuizQ1GoalChaser": "Слагаш го в списък 'може би', утре решаваш",
+  "onbQuizQ1Impulse": "Вече е в количката 😅",
+  "onbQuizQ2": "Петък вечер?",
+  "onbQuizQ2Saver": "У дома — пуканки и филм",
+  "onbQuizQ2Treater": "Вечеря навън с приятели",
+  "onbQuizQ2GoalChaser": "Безплатно събитие с приятели",
+  "onbQuizQ2Impulse": "Накъдето те поведе вечерта",
+  "onbQuizQ3": "Любимото ти приложение бипка: 50% намаление!",
+  "onbQuizQ3Saver": "Заглушаваш го",
+  "onbQuizQ3Treater": "Разглеждаш, вероятно купуваш",
+  "onbQuizQ3GoalChaser": "Купуваш само това, което си планирал",
+  "onbQuizQ3Impulse": "Отваряш веднага",
+  "onbQuizQ4": "Колко често гледаш баланса си?",
+  "onbQuizQ4Daily": "Всеки ден",
+  "onbQuizQ4Weekly": "Всяка седмица",
+  "onbQuizQ4Monthly": "Всеки месец",
+  "onbQuizQ4Decline": "Само когато картата откаже 😬",
+  "onbQuizQ5": "Неочаквани 100 € идват в сметката ти.",
+  "onbQuizQ5Saver": "Право в спестяванията",
+  "onbQuizQ5Treater": "Глезиш се",
+  "onbQuizQ5GoalChaser": "Подсилваш цел",
+  "onbQuizQ5Impulse": "До вторник ги няма",
+
+  "homeWelcomeBack": "Здрасти отново,",
+  "homeFriend": "Приятел",
+  "homeNoNotifications": "Няма известия…",
+  "homeSpending": "Разходи",
+  "homeCategories": "Категории",
+  "homeNoCategoriesTitle": "Още няма категории",
+  "homeNoCategoriesBody": "Добави една в Профил, за да започнем 🌱",
+  "homeMarkNoSpend": "Маркирай днес като ден без харчене",
+  "homeLogSpend": "+ Запиши разход",
+  "homeRemainingThisMonth": "Остават този месец",
+  "homeTopUp": "Допълни",
+  "homeOfMonthly": "от {amount}",
+  "@homeOfMonthly": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "homeSelectCurrency": "Избери валута",
+
+  "categoryOfCap": "от {cap}",
+  "@categoryOfCap": {
+    "placeholders": { "cap": { "type": "String" } }
+  },
+
+  "statsTotalSpent": "Похарчени общо",
+  "statsTotalExpenses": "Общо разходи",
+  "statsLast90Days": "Последни 90 дни",
+  "statsHeatmapLess": "по-малко",
+  "statsHeatmapMore": "повече",
+  "statsLogsCount": "{count, plural, one{{count} запис} other{{count} записа}}",
+  "@statsLogsCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "statsDaySummary": "{amount} в {logs}",
+  "@statsDaySummary": {
+    "placeholders": {
+      "amount": { "type": "String" },
+      "logs": { "type": "String" }
+    }
+  },
+  "statsNoSpendDay": "Ден без харчене 🌱",
+  "whatIfTitle": "А ако?",
+  "whatIfEmpty": "Първо задай цел и Sprout ще ти покаже как съкращенията те ускоряват 🌱",
+  "whatIfCutByPercent": "Намали {category} с {percent}% →",
+  "@whatIfCutByPercent": {
+    "placeholders": {
+      "category": { "type": "String" },
+      "percent": { "type": "int" }
+    }
+  },
+  "whatIfSave": "спестяваш ",
+  "whatIfPerMonth": "{amount}/мес",
+  "@whatIfPerMonth": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "whatIfReach": " — стигаш ",
+  "whatIfIn": " за ",
+  "whatIfWeeks": "{weeks, plural, one{{weeks} седмица} other{{weeks} седмици}}",
+  "@whatIfWeeks": {
+    "placeholders": { "weeks": { "type": "int" } }
+  },
+  "whatIfNoTick": ". Увеличи срязването, за да тръгне броячът ⏳",
+
+  "monthJan": "яну",
+  "monthFeb": "фев",
+  "monthMar": "март",
+  "monthApr": "апр",
+  "monthMay": "май",
+  "monthJun": "юни",
+  "monthJul": "юли",
+  "monthAug": "авг",
+  "monthSep": "сеп",
+  "monthOct": "окт",
+  "monthNov": "ное",
+  "monthDec": "дек",
+  "monthLongJan": "Януари",
+  "monthLongFeb": "Февруари",
+  "monthLongMar": "Март",
+  "monthLongApr": "Април",
+  "monthLongMay": "Май",
+  "monthLongJun": "Юни",
+  "monthLongJul": "Юли",
+  "monthLongAug": "Август",
+  "monthLongSep": "Септември",
+  "monthLongOct": "Октомври",
+  "monthLongNov": "Ноември",
+  "monthLongDec": "Декември",
+
+  "goalDefaultSavings": "Спестявания",
+  "goalDefaultInvest": "Инвестиции",
+  "goalsHeader": "Цели",
+  "goalsSubtitle": "Следи за какво спестяваш. Sprout расте с теб.",
+  "goalsEmptyTitle": "Още няма цели",
+  "goalsEmptyBody": "Избери си нещо, за което да спестяваш — дори малко. Sprout ще расте редом.",
+  "goalsAddCta": "Добави цел",
+  "goalSetAside": "Заделям",
+  "goalComplete": "Целта е изпълнена 🎉",
+  "goalYouDidIt": "🎉 Успя!",
+  "goalOfTarget": "от {target}",
+  "@goalOfTarget": {
+    "placeholders": { "target": { "type": "String" } }
+  },
+  "goalToGo": "още {amount}",
+  "@goalToGo": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "goalPaceWeeks": "{weeks, plural, one{~{weeks} седмица с това темпо} other{~{weeks} седмици с това темпо}}",
+  "@goalPaceWeeks": {
+    "placeholders": { "weeks": { "type": "int" } }
+  },
+  "goalDeadlinePast": "след крайния срок",
+  "goalDeadlineToday": "днес",
+  "goalDeadlineDaysLeft": "{days, plural, one{остава {days} ден} other{остават {days} дни}}",
+  "@goalDeadlineDaysLeft": {
+    "placeholders": { "days": { "type": "int" } }
+  },
+  "goalDeadlineWeeksLeft": "{weeks, plural, one{остава {weeks} седмица} other{остават {weeks} седмици}}",
+  "@goalDeadlineWeeksLeft": {
+    "placeholders": { "weeks": { "type": "int" } }
+  },
+  "goalDetailHistory": "История",
+  "goalDetailContribCount": "{count, plural, one{{count} вноска} other{{count} вноски}}",
+  "@goalDetailContribCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "goalDetailFirstSetAside": "Задели първите си 5 € — Sprout чака 🌱",
+  "goalNotFound": "Целта не е намерена",
+  "goalSheetNewTitle": "Нова цел",
+  "goalSheetEditTitle": "Редактирай цел",
+  "goalSheetNameField": "Име",
+  "goalSheetDeleteConfirmTitle": "Да изтрием ли тази цел?",
+  "goalSheetDeleteConfirmBody": "Sprout ще загуби следата на '{name}'. Историята на заделените суми също ще изчезне.",
+  "@goalSheetDeleteConfirmBody": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "goalSheetNoDeadline": "Без краен срок",
+  "goalSheetAddGoal": "Добави цел",
+  "setAsideTitle": "Заделям за {goal}",
+  "@setAsideTitle": {
+    "placeholders": { "goal": { "type": "String" } }
+  },
+  "setAsideToGo": "още {amount}",
+  "@setAsideToGo": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "setAsideButtonAmount": "Задели {amount} 🌱",
+  "@setAsideButtonAmount": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "milestoneComplete": "Целта е изпълнена! 🎉",
+  "milestonePercent": "{percent}% сте до там!",
+  "@milestonePercent": {
+    "placeholders": { "percent": { "type": "int" } }
+  },
+  "milestoneCompleteSub": "Стигна целта {goal} 🌱",
+  "@milestoneCompleteSub": {
+    "placeholders": { "goal": { "type": "String" } }
+  },
+  "milestoneKeepGoing": "Продължавай към {goal}",
+  "@milestoneKeepGoing": {
+    "placeholders": { "goal": { "type": "String" } }
+  },
+
+  "youMonthlyBudget": "Месечен бюджет",
+  "youSpentThisMonth": "Похарчени този месец",
+  "youTopUpThisMonth": "+{amount} допълнително този месец",
+  "@youTopUpThisMonth": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "youTopUpAction": "Допълни този месец",
+  "editBudgetSubtitle": "това става твоят бюджет отсега нататък 🌱",
+  "topUpTitle": "Допълване за {month}",
+  "@topUpTitle": {
+    "placeholders": { "month": { "type": "String" } }
+  },
+  "topUpSubtitle": "еднократен бонус само за този месец 🌱",
+  "topUpButton": "добави {amount}",
+  "@topUpButton": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "youStreakLabel": "Серия от {count} дни",
+  "@youStreakLabel": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "youStreakLongest": "Най-дълга: {count, plural, one{{count} ден} other{{count} дни}}",
+  "@youStreakLongest": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "youStreakStart": "Запиши разход или маркирай ден без харчене, за да тръгнеш.",
+  "youTalkedOutOf": "Разубеди себе си от",
+  "youCooldownTitle": "Таймер за изчакване",
+  "youCooldownSubtitle": "30 секунди дъх преди всеки голям разход",
+  "youCooldownTriggerAbove": "Активиране над",
+  "youAddCategory": "Добави категория",
+  "youLogOut": "Изход",
+  "youRoundUpTitle": "Закръгляне към спестявания",
+  "youRoundUpNoGoal": "Първо добави цел — закръгленията имат нужда от посока 🌱",
+  "youRoundUpActive": "Всеки разход се закръгля; рестото отива в {goal}",
+  "@youRoundUpActive": {
+    "placeholders": { "goal": { "type": "String" } }
+  },
+  "youRecurringHeader": "Повтарящи се",
+  "youRecurringAutoMonth": "Записва се автоматично всеки месец",
+  "youRecurringCategoryAutoMonth": "{category} · записва се автоматично всеки месец",
+  "@youRecurringCategoryAutoMonth": {
+    "placeholders": { "category": { "type": "String" } }
+  },
+
+  "appearanceLabel": "Изглед",
+  "appearanceAccent": "Акцент",
+  "appearanceLanguage": "Език",
+  "appearanceLanguageEnglish": "English",
+  "appearanceLanguageBulgarian": "Български",
+  "themeSystem": "Системна",
+  "themeLight": "Светла",
+  "themeDark": "Тъмна",
+  "accentSproutPurple": "Sprout лилаво",
+  "accentBrandBlue": "Брандово синьо",
+  "accentSproutGreen": "Sprout зелено",
+  "accentCoral": "Корал",
+  "accentHoney": "Мед",
+  "accentLavender": "Лавандула",
+
+  "achievementsHeader": "Постижения",
+  "achFirstSavedLabel": "Първите {amount} спестени",
+  "@achFirstSavedLabel": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "achFirstSavedDesc": "Във всички цели общо.",
+  "achStreakLabel": "Серия от 7 дни",
+  "achStreakDesc": "Седмица, в която не пропусна нищо.",
+  "achCooldownsLabel": "10 спечелени изчаквания",
+  "achCooldownsDesc": "Десет пъти разубеди себе си от разход.",
+  "achGoalLabel": "Първа постигната цел",
+  "achGoalDesc": "Премина финалната линия.",
+
+  "addTxLogSpend": "Запиши разход",
+  "addTxEditTitle": "Редактирай разход",
+  "addTxCategory": "Категория",
+  "addTxNoteHint": "Бележка (по избор)",
+  "addTxMoodPrompt": "Как се почувства?",
+  "addTxRepeatMonthly": "Повтаряй всеки месец?",
+  "addTxSubmitNew": "Запиши",
+  "addTxLogged": "Записано ✓",
+
+  "cooldownTitle": "Поеми си дъх.",
+  "cooldownPrompt": "Още ли искаш този разход от {amount}?",
+  "@cooldownPrompt": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "cooldownYes": "Да, запиши го",
+  "cooldownNo": "Не, спестих {amount} 🌱",
+  "@cooldownNo": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+
+  "categoryNotFound": "Категорията не е намерена",
+  "categoryDetailTransactions": "Транзакции",
+  "categoryDetailTotalCount": "{count} общо",
+  "@categoryDetailTotalCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "categoryDetailEmpty": "Тук още няма нищо — запиши разход 🌱",
+  "categoryDetailSpentOfCap": "/ {cap} този месец",
+  "@categoryDetailSpentOfCap": {
+    "placeholders": { "cap": { "type": "String" } }
+  },
+  "categoryDetailLast30": "Последните 30 дни",
+  "categoryDetailAdjustCap": "Промени лимита",
+  "categoryDetailDeleteTxTitle": "Да изтрием ли този разход?",
+  "categoryDetailDeleteTxNote": "\"{note}\" — {amount}",
+  "@categoryDetailDeleteTxNote": {
+    "placeholders": {
+      "note": { "type": "String" },
+      "amount": { "type": "String" }
+    }
+  },
+  "categoryDetailDeleteTxNoNote": "{amount}",
+  "@categoryDetailDeleteTxNoNote": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "adjustCapTitle": "Промени лимита за {name}",
+  "@adjustCapTitle": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "adjustCapSubtitle": "Колко искаш да харчиш за това всеки месец?",
+
+  "addCategoryNew": "Нова категория",
+  "addCategoryName": "Име",
+  "addCategoryIcon": "Икона",
+  "addCategoryColor": "Цвят",
+  "addCategoryMonthlyCap": "Месечен лимит",
+
+  "categoryDefaultFood": "Храна",
+  "categoryDefaultCoffee": "Кафе",
+  "categoryDefaultTransport": "Транспорт",
+  "categoryDefaultFun": "Забавления",
+  "categoryDefaultShopping": "Пазаруване",
+  "categoryDefaultOther": "Други",
+
+  "sparklineEmpty": "Още няма разходи в тази категория 🌱",
+
+  "dateToday": "Днес",
+  "dateYesterday": "Вчера",
+  "dateDaysAgo": "{days, plural, one{преди {days} ден} other{преди {days} дни}}",
+  "@dateDaysAgo": {
+    "placeholders": { "days": { "type": "int" } }
+  },
+
+  "nudgeNoSpend": "Засега ден без харчене — браво ⚡️",
+  "nudgeAheadOfPace": "🌱 {amount} пред темпото — давай.",
+  "@nudgeAheadOfPace": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "nudgeTreatDay": "Днес беше глезотен ден, нищо страшно. Утре пак.",
+
+  "insightWeeklyTitle": "Миналата седмица 📅",
+  "insightWeeklyBody": "{count, plural, one{{count} транзакция} other{{count} транзакции}}, {total} общо. Топ: {topCategory} ({topAmount}). {goalLine}Серията от {streak} дни е жива 🔥",
+  "@insightWeeklyBody": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "total": { "type": "String" },
+      "topCategory": { "type": "String" },
+      "topAmount": { "type": "String" },
+      "goalLine": { "type": "String" },
+      "streak": { "type": "int" }
+    }
+  },
+  "insightWeeklyGoalLine": "Цел {name}: +{amount}. ",
+  "@insightWeeklyGoalLine": {
+    "placeholders": {
+      "name": { "type": "String" },
+      "amount": { "type": "String" }
+    }
+  },
+  "insightLatteTitle": "Кафето се сумира",
+  "insightLatteBody": "Похарчи {month} за кафе този месец. За цяла година = {year} ☕️",
+  "@insightLatteBody": {
+    "placeholders": {
+      "month": { "type": "String" },
+      "year": { "type": "String" }
+    }
+  },
+  "insightLatteAction": "Пробвай 'а ако?'",
+  "insightMoodTitle": "Настроението има значение",
+  "insightMoodBody": "В дни с лошо настроение харчиш {ratio}× повече от добрите. Може 24-часовото правило да помогне 🌱",
+  "@insightMoodBody": {
+    "placeholders": { "ratio": { "type": "String" } }
+  },
+
+  "navTogether": "Заедно",
+
+  "partnerSectionTitle": "Партньорски план",
+  "partnerSoloPrompt": "свържи се, за да планирате общи пари — твоето си остава твое 🌱",
+  "partnerEmailHint": "имейл на партньора",
+  "partnerInviteCta": "покани партньор",
+  "partnerInviteSentLabel": "поканата е изпратена до {email}",
+  "@partnerInviteSentLabel": {
+    "placeholders": { "email": { "type": "String" } }
+  },
+  "partnerUndo": "върни",
+  "partnerPendingOutbound": "чакаме {email} да приеме",
+  "@partnerPendingOutbound": {
+    "placeholders": { "email": { "type": "String" } }
+  },
+  "partnerCancelInvite": "откажи поканата",
+  "partnerInviteReceived": "{name} иска да растете парите си заедно. навиваш ли се?",
+  "@partnerInviteReceived": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "partnerAcceptYes": "да, давай",
+  "partnerAcceptNo": "не сега",
+  "partnerLinkedSince": "свързан с {name} от {date}",
+  "@partnerLinkedSince": {
+    "placeholders": {
+      "name": { "type": "String" },
+      "date": { "type": "String" }
+    }
+  },
+  "partnerUnlink": "прекрати връзката",
+
+  "partnerInviteOnItsWay": "sprout вече лети към {email} 🌱",
+  "@partnerInviteOnItsWay": {
+    "placeholders": { "email": { "type": "String" } }
+  },
+  "partnerInviteAccepted": "вече растете заедно. яко.",
+  "partnerInviteDeclined": "{name} ще изчака този път.",
+  "@partnerInviteDeclined": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "partnerInviteCancelled": "поканата е изтеглена. спокойно.",
+  "partnerSharedCategoryHigh": "общата категория {category} върви нагоре този месец — заслужава разговор.",
+  "@partnerSharedCategoryHigh": {
+    "placeholders": { "category": { "type": "String" } }
+  },
+  "partnerSharedMilestone": "и двамата го направихте. {goal} е на {pct}% ✨",
+  "@partnerSharedMilestone": {
+    "placeholders": {
+      "goal": { "type": "String" },
+      "pct": { "type": "int" }
+    }
+  },
+  "partnerSharedGoalComplete": "израснахте {goal} докрай. гордея се с вас 🌳",
+  "@partnerSharedGoalComplete": {
+    "placeholders": { "goal": { "type": "String" } }
+  },
+  "partnerPotDeposit": "{amount} паднаха в общия фонд. расте си.",
+  "@partnerPotDeposit": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "partnerUnlinkConfirm": "сигурен ли си? своето си остава твое, просто спирате да споделяте сумите.",
+  "partnerUnlinkDone": "връзката е прекратена. sprout пак те пази.",
+
+  "partnerErrAlreadyLinked": "вече си в партньорство 🌱",
+  "partnerErrTargetLinked": "този човек вече е в партньорство с друг",
+  "partnerErrEmailUnknown": "няма sprout акаунт за този имейл — поканѝ ги първо да се регистрират",
+  "partnerErrInviteExpired": "тази покана изтече — помоли ги за нова",
+  "partnerErrNotSharedPot": "тази цел не е общ фонд",
+  "partnerErrGeneric": "нещо се обърка — пробвай пак",
+
+  "togetherSoloTitle": "растете парите заедно",
+  "togetherSoloBody": "планирайте пътуване, дом или резерва за черни дни — заедно, докато своите пари остават лични.",
+  "togetherSoloCta": "свържи партньор",
+  "togetherHeader": "ти и {name}",
+  "@togetherHeader": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "togetherSharedGoals": "общи цели",
+  "togetherSharedTxThisMonth": "споделени този месец",
+  "togetherSharedCategories": "общи категории",
+  "togetherNoSharedGoals": "още няма общи цели — започни една отдолу 🌱",
+  "togetherNoSharedTx": "още няма споделени разходи този месец",
+  "togetherNoSharedCategories": "още нищо споделено — включи категория, за да видите общата ѝ сума",
+  "togetherWeeklyRecap": "тази седмица заедно спестихте {amount} към {goal}",
+  "@togetherWeeklyRecap": {
+    "placeholders": {
+      "amount": { "type": "String" },
+      "goal": { "type": "String" }
+    }
+  },
+  "togetherRatesAsOf": "курсове към {date}",
+  "@togetherRatesAsOf": {
+    "placeholders": { "date": { "type": "String" } }
+  },
+  "togetherSeeAllGoals": "виж всички цели",
+  "togetherNewSharedGoal": "нова обща цел",
+  "togetherManageShared": "управлявай какво споделяш",
+  "togetherFromPartner": "от {name}",
+  "@togetherFromPartner": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "togetherFromYou": "споделено от теб",
+  "sharedCategoriesTitle": "споделяй категории",
+  "sharedCategoriesSubtitle": "избери за кои твои категории партньорът ти вижда месечната сума — никога отделните покупки 🌱",
+  "sharedCategoriesEmpty": "още нямаш категории",
+
+  "goalsTogetherSection": "Заедно",
+  "goalFundingSplit": "разделено",
+  "goalFundingPot": "общ фонд",
+
+  "sharedGoalPotBalance": "баланс на фонда",
+  "sharedGoalDeposit": "внеси",
+  "sharedGoalDepositTitle": "пусни в общия фонд",
+  "sharedGoalContributions": "вноски",
+  "sharedGoalDepositFrom": "от",
+  "sharedGoalCreateTitle": "нова обща цел",
+  "sharedGoalFundingQuestion": "как ще я финансирате?",
+  "sharedGoalModePotDesc": "един общ фонд, който и двамата захранвате",
+  "sharedGoalModeSplitDesc": "всеки внася от своите пари",
+  "sharedGoalYou": "ти",
+
+  "addTxShareWithPartner": "сподели с партньор",
+  "addTxPaidBy": "платено от",
+  "addTxPaidByMe": "мен",
+  "addTxPartnerSees": "партньорът ти вижда {amount} от това в своята сума",
+  "@addTxPartnerSees": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "addTxSplitLabel": "разделяне",
+
+  "categoryShareToggle": "сподели общата сума с партньор",
+  "categoryShareHelper": "партньорът ти вижда само месечната сума тук, никога отделните покупки",
+  "categoryShareLinkFirst": "първо свържи партньор",
+
+  "unlinkResolveTitle": "преди да прекратиш",
+  "unlinkResolveBody": "какво да стане с общите ви цели?",
+  "unlinkResolveAssignMe": "запази я — става моя",
+  "unlinkResolveAssignPartner": "дай я на {name}",
+  "@unlinkResolveAssignPartner": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "unlinkResolveDelete": "изтрий я"
+}

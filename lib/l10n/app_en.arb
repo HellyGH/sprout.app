@@ -1,0 +1,594 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "Sprout",
+  "appTagline": "Watch your money grow.",
+
+  "navHome": "Home",
+  "navStats": "Stats",
+  "navGoals": "Goals",
+  "navYou": "You",
+
+  "commonNext": "Next",
+  "commonBack": "Back",
+  "commonCancel": "Cancel",
+  "commonSave": "Save",
+  "commonDelete": "Delete",
+  "commonKeep": "Keep",
+  "commonAdd": "Add",
+  "commonNew": "New",
+
+  "authLogIn": "Log in",
+  "authSignUp": "Sign up",
+  "authFieldName": "Name",
+  "authFieldEmail": "Email",
+  "authFieldPassword": "Password",
+  "authCreateAccount": "Create account",
+  "authNameRequired": "Name is required",
+  "authEmailRequired": "Email is required",
+  "authEmailInvalid": "That doesn't look quite right — try again 🌱",
+  "authPasswordRequired": "Password is required",
+  "authPasswordTooShort": "Password needs at least 6 characters",
+  "authEmailLooksOff": "Email looks off",
+  "authPasswordRuleSignup": "Password must be at least 6 characters",
+  "authAccountExists": "An account already exists for that email",
+  "authNoMatch": "No matching account — check your details",
+
+  "onbWelcomeGreetingGeneric": "Hey there,",
+  "onbWelcomeGreetingNamed": "Hey {name},",
+  "@onbWelcomeGreetingNamed": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "onbWelcomeIntro": "I'm Sprout.",
+  "onbWelcomeSubtitle": "Let's grow your money — together.",
+  "onbLetsGrow": "Let's grow 🌱",
+
+  "onbBudgetTitle": "Set your monthly budget",
+  "onbBudgetSubtitle": "Don't worry — you can change this anytime.",
+  "onbBudgetCurrency": "Currency",
+  "onbBudgetPerDay": "That's about {amount}/day.",
+  "@onbBudgetPerDay": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+
+  "onbGoalTitle": "What are you saving for?",
+  "onbGoalSubtitle": "Pick one to start. You can add more later.",
+  "onbGoalPresetTokyo": "Tokyo trip",
+  "onbGoalPresetMacbook": "MacBook",
+  "onbGoalPresetEmergency": "Emergency fund",
+  "onbGoalPresetConcert": "Concert",
+  "onbGoalCreateOwn": "Or create your own",
+  "onbGoalCustom": "Custom goal",
+  "onbGoalNameField": "Goal name",
+  "onbGoalTargetField": "Target amount",
+  "onbGoalDeadlineHint": "Deadline (optional)",
+
+  "onbQuizTitle": "Quick personality check",
+  "onbQuizSubtitle": "Helps me tone-tune nudges. No wrong answers.",
+  "onbQuizResult": "You're a {type} — got it. I'll keep that in mind.",
+  "@onbQuizResult": {
+    "placeholders": { "type": { "type": "String" } }
+  },
+  "personalitySaver": "Saver",
+  "personalityTreater": "Treater",
+  "personalityGoalChaser": "Goal-chaser",
+  "personalityImpulse": "Impulse",
+
+  "onbQuizQ1": "A €40 hoodie catches your eye. You…",
+  "onbQuizQ1Saver": "Walk on — saving for something better",
+  "onbQuizQ1Treater": "Buy it. You earned it.",
+  "onbQuizQ1GoalChaser": "Add it to a 'maybe' list, decide tomorrow",
+  "onbQuizQ1Impulse": "It's already in your cart 😅",
+  "onbQuizQ2": "Friday night?",
+  "onbQuizQ2Saver": "Cozy in — popcorn + film",
+  "onbQuizQ2Treater": "Dinner out with mates",
+  "onbQuizQ2GoalChaser": "Free event with friends",
+  "onbQuizQ2Impulse": "See where the night takes you",
+  "onbQuizQ3": "Your favourite app pings: 50% off!",
+  "onbQuizQ3Saver": "Mute it",
+  "onbQuizQ3Treater": "Browse, probably buy",
+  "onbQuizQ3GoalChaser": "Buy only what you'd planned",
+  "onbQuizQ3Impulse": "Open it immediately",
+  "onbQuizQ4": "How often do you check your balance?",
+  "onbQuizQ4Daily": "Daily",
+  "onbQuizQ4Weekly": "Weekly",
+  "onbQuizQ4Monthly": "Monthly",
+  "onbQuizQ4Decline": "Only when the card declines 😬",
+  "onbQuizQ5": "An unexpected €100 lands in your account.",
+  "onbQuizQ5Saver": "Straight to savings",
+  "onbQuizQ5Treater": "Treat yourself",
+  "onbQuizQ5GoalChaser": "Boost a goal",
+  "onbQuizQ5Impulse": "It's gone by Tuesday",
+
+  "homeWelcomeBack": "Welcome back,",
+  "homeFriend": "Friend",
+  "homeNoNotifications": "No notifications…",
+  "homeSpending": "Spending",
+  "homeCategories": "Categories",
+  "homeNoCategoriesTitle": "No categories yet",
+  "homeNoCategoriesBody": "Add one in the You tab to start tracking 🌱",
+  "homeMarkNoSpend": "Mark today as no-spend",
+  "homeLogSpend": "+ Log a spend",
+  "homeRemainingThisMonth": "Remaining this month",
+  "homeTopUp": "Top up",
+  "homeOfMonthly": "of {amount}",
+  "@homeOfMonthly": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "homeSelectCurrency": "Select currency",
+
+  "categoryOfCap": "of {cap}",
+  "@categoryOfCap": {
+    "placeholders": { "cap": { "type": "String" } }
+  },
+
+  "statsTotalSpent": "Total Spent",
+  "statsTotalExpenses": "Total Expenses",
+  "statsLast90Days": "Last 90 days",
+  "statsHeatmapLess": "less",
+  "statsHeatmapMore": "more",
+  "statsLogsCount": "{count, plural, one{{count} log} other{{count} logs}}",
+  "@statsLogsCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "statsDaySummary": "{amount} across {logs}",
+  "@statsDaySummary": {
+    "placeholders": {
+      "amount": { "type": "String" },
+      "logs": { "type": "String" }
+    }
+  },
+  "statsNoSpendDay": "No-spend day 🌱",
+  "whatIfTitle": "What if?",
+  "whatIfEmpty": "Set a goal first and Sprout will show how cutting back speeds you up 🌱",
+  "whatIfCutByPercent": "Cut {category} by {percent}% →",
+  "@whatIfCutByPercent": {
+    "placeholders": {
+      "category": { "type": "String" },
+      "percent": { "type": "int" }
+    }
+  },
+  "whatIfSave": "save ",
+  "whatIfPerMonth": "{amount}/mo",
+  "@whatIfPerMonth": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "whatIfReach": " — reach ",
+  "whatIfIn": " in ",
+  "whatIfWeeks": "{weeks, plural, one{{weeks} week} other{{weeks} weeks}}",
+  "@whatIfWeeks": {
+    "placeholders": { "weeks": { "type": "int" } }
+  },
+  "whatIfNoTick": ". Increase the cut to start ticking down ⏳",
+
+  "monthJan": "Jan",
+  "monthFeb": "Feb",
+  "monthMar": "March",
+  "monthApr": "April",
+  "monthMay": "May",
+  "monthJun": "June",
+  "monthJul": "July",
+  "monthAug": "August",
+  "monthSep": "Sept",
+  "monthOct": "Oct",
+  "monthNov": "Nov",
+  "monthDec": "Dec",
+  "monthLongJan": "January",
+  "monthLongFeb": "February",
+  "monthLongMar": "March",
+  "monthLongApr": "April",
+  "monthLongMay": "May",
+  "monthLongJun": "June",
+  "monthLongJul": "July",
+  "monthLongAug": "August",
+  "monthLongSep": "September",
+  "monthLongOct": "October",
+  "monthLongNov": "November",
+  "monthLongDec": "December",
+
+  "goalDefaultSavings": "Savings",
+  "goalDefaultInvest": "Invest",
+  "goalsHeader": "Goals",
+  "goalsSubtitle": "Track what you're saving for. Sprout grows with you.",
+  "goalsEmptyTitle": "No goals yet",
+  "goalsEmptyBody": "Pick something you're saving for — even a small one. Sprout will grow alongside.",
+  "goalsAddCta": "Add a goal",
+  "goalSetAside": "Set aside",
+  "goalComplete": "Goal complete 🎉",
+  "goalYouDidIt": "🎉 You did it!",
+  "goalOfTarget": "of {target}",
+  "@goalOfTarget": {
+    "placeholders": { "target": { "type": "String" } }
+  },
+  "goalToGo": "{amount} to go",
+  "@goalToGo": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "goalPaceWeeks": "{weeks, plural, one{~{weeks} week at this rate} other{~{weeks} weeks at this rate}}",
+  "@goalPaceWeeks": {
+    "placeholders": { "weeks": { "type": "int" } }
+  },
+  "goalDeadlinePast": "past deadline",
+  "goalDeadlineToday": "today",
+  "goalDeadlineDaysLeft": "{days, plural, one{{days} day left} other{{days} days left}}",
+  "@goalDeadlineDaysLeft": {
+    "placeholders": { "days": { "type": "int" } }
+  },
+  "goalDeadlineWeeksLeft": "{weeks, plural, one{{weeks} week left} other{{weeks} weeks left}}",
+  "@goalDeadlineWeeksLeft": {
+    "placeholders": { "weeks": { "type": "int" } }
+  },
+  "goalDetailHistory": "History",
+  "goalDetailContribCount": "{count, plural, one{{count} contribution} other{{count} contributions}}",
+  "@goalDetailContribCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "goalDetailFirstSetAside": "Set aside your first €5 — Sprout's waiting 🌱",
+  "goalNotFound": "Goal not found",
+  "goalSheetNewTitle": "New goal",
+  "goalSheetEditTitle": "Edit goal",
+  "goalSheetNameField": "Name",
+  "goalSheetDeleteConfirmTitle": "Delete this goal?",
+  "goalSheetDeleteConfirmBody": "Sprout will lose track of '{name}'. Set-aside history will go too.",
+  "@goalSheetDeleteConfirmBody": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "goalSheetNoDeadline": "No deadline",
+  "goalSheetAddGoal": "Add goal",
+  "setAsideTitle": "Set aside for {goal}",
+  "@setAsideTitle": {
+    "placeholders": { "goal": { "type": "String" } }
+  },
+  "setAsideToGo": "{amount} to go",
+  "@setAsideToGo": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "setAsideButtonAmount": "Set aside {amount} 🌱",
+  "@setAsideButtonAmount": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "milestoneComplete": "Goal complete! 🎉",
+  "milestonePercent": "{percent}% there!",
+  "@milestonePercent": {
+    "placeholders": { "percent": { "type": "int" } }
+  },
+  "milestoneCompleteSub": "You hit your {goal} goal 🌱",
+  "@milestoneCompleteSub": {
+    "placeholders": { "goal": { "type": "String" } }
+  },
+  "milestoneKeepGoing": "Keep going on {goal}",
+  "@milestoneKeepGoing": {
+    "placeholders": { "goal": { "type": "String" } }
+  },
+
+  "youMonthlyBudget": "Monthly budget",
+  "youSpentThisMonth": "Spent this month",
+  "youTopUpThisMonth": "+{amount} extra this month",
+  "@youTopUpThisMonth": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "youTopUpAction": "Top up this month",
+  "editBudgetSubtitle": "this becomes your budget from now on 🌱",
+  "topUpTitle": "Top up {month}",
+  "@topUpTitle": {
+    "placeholders": { "month": { "type": "String" } }
+  },
+  "topUpSubtitle": "a one-off boost, just for this month 🌱",
+  "topUpButton": "add {amount}",
+  "@topUpButton": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "youStreakLabel": "{count}-day streak",
+  "@youStreakLabel": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "youStreakLongest": "Longest: {count, plural, one{{count} day} other{{count} days}}",
+  "@youStreakLongest": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "youStreakStart": "Log a spend or mark a no-spend day to start.",
+  "youTalkedOutOf": "Talked yourself out of",
+  "youCooldownTitle": "Cooldown timer",
+  "youCooldownSubtitle": "30s breath before any big spend",
+  "youCooldownTriggerAbove": "Trigger above",
+  "youAddCategory": "Add a category",
+  "youLogOut": "Log out",
+  "youRoundUpTitle": "Round-up savings",
+  "youRoundUpNoGoal": "Add a goal first — round-ups need a destination 🌱",
+  "youRoundUpActive": "Each spend rounds up; spare change → {goal}",
+  "@youRoundUpActive": {
+    "placeholders": { "goal": { "type": "String" } }
+  },
+  "youRecurringHeader": "Recurring",
+  "youRecurringAutoMonth": "Auto-logs each month",
+  "youRecurringCategoryAutoMonth": "{category} · auto-logs each month",
+  "@youRecurringCategoryAutoMonth": {
+    "placeholders": { "category": { "type": "String" } }
+  },
+
+  "appearanceLabel": "Appearance",
+  "appearanceAccent": "Accent",
+  "appearanceLanguage": "Language",
+  "appearanceLanguageEnglish": "English",
+  "appearanceLanguageBulgarian": "Български",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "accentSproutPurple": "Sprout purple",
+  "accentBrandBlue": "Brand blue",
+  "accentSproutGreen": "Sprout green",
+  "accentCoral": "Coral",
+  "accentHoney": "Honey",
+  "accentLavender": "Lavender",
+
+  "achievementsHeader": "Achievements",
+  "achFirstSavedLabel": "First {amount} saved",
+  "@achFirstSavedLabel": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "achFirstSavedDesc": "Across all goals.",
+  "achStreakLabel": "7-day streak",
+  "achStreakDesc": "A week of staying on it.",
+  "achCooldownsLabel": "10 cooldowns won",
+  "achCooldownsDesc": "You talked yourself out of ten spends.",
+  "achGoalLabel": "First goal hit",
+  "achGoalDesc": "You crossed the finish line.",
+
+  "addTxLogSpend": "Log a spend",
+  "addTxEditTitle": "Edit transaction",
+  "addTxCategory": "Category",
+  "addTxNoteHint": "Note (optional)",
+  "addTxMoodPrompt": "How did this feel?",
+  "addTxRepeatMonthly": "Repeat monthly?",
+  "addTxSubmitNew": "Log spend",
+  "addTxLogged": "Logged ✓",
+
+  "cooldownTitle": "Take a breath.",
+  "cooldownPrompt": "Still want this {amount} spend?",
+  "@cooldownPrompt": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "cooldownYes": "Yes, log it",
+  "cooldownNo": "Nope, saved {amount} 🌱",
+  "@cooldownNo": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+
+  "categoryNotFound": "Category not found",
+  "categoryDetailTransactions": "Transactions",
+  "categoryDetailTotalCount": "{count} total",
+  "@categoryDetailTotalCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "categoryDetailEmpty": "Nothing here yet — log a spend to fill it in 🌱",
+  "categoryDetailSpentOfCap": "/ {cap} this month",
+  "@categoryDetailSpentOfCap": {
+    "placeholders": { "cap": { "type": "String" } }
+  },
+  "categoryDetailLast30": "Last 30 days",
+  "categoryDetailAdjustCap": "Adjust cap",
+  "categoryDetailDeleteTxTitle": "Delete this transaction?",
+  "categoryDetailDeleteTxNote": "\"{note}\" — {amount}",
+  "@categoryDetailDeleteTxNote": {
+    "placeholders": {
+      "note": { "type": "String" },
+      "amount": { "type": "String" }
+    }
+  },
+  "categoryDetailDeleteTxNoNote": "{amount}",
+  "@categoryDetailDeleteTxNoNote": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "adjustCapTitle": "Adjust {name} cap",
+  "@adjustCapTitle": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "adjustCapSubtitle": "How much do you want to spend on this each month?",
+
+  "addCategoryNew": "New category",
+  "addCategoryName": "Name",
+  "addCategoryIcon": "Icon",
+  "addCategoryColor": "Color",
+  "addCategoryMonthlyCap": "Monthly cap",
+
+  "categoryDefaultFood": "Food",
+  "categoryDefaultCoffee": "Coffee",
+  "categoryDefaultTransport": "Transport",
+  "categoryDefaultFun": "Fun",
+  "categoryDefaultShopping": "Shopping",
+  "categoryDefaultOther": "Other",
+
+  "sparklineEmpty": "No spending in this category yet 🌱",
+
+  "dateToday": "Today",
+  "dateYesterday": "Yesterday",
+  "dateDaysAgo": "{days, plural, one{{days} day ago} other{{days} days ago}}",
+  "@dateDaysAgo": {
+    "placeholders": { "days": { "type": "int" } }
+  },
+
+  "nudgeNoSpend": "No-spend day so far — nice ⚡️",
+  "nudgeAheadOfPace": "🌱 {amount} ahead of pace — keep going.",
+  "@nudgeAheadOfPace": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "nudgeTreatDay": "Today was a treat day, no big deal. Tomorrow we go again.",
+
+  "insightWeeklyTitle": "Last week 📅",
+  "insightWeeklyBody": "{count, plural, one{{count} transaction} other{{count} transactions}}, {total} total. Top: {topCategory} ({topAmount}). {goalLine}{streak}-day streak alive 🔥",
+  "@insightWeeklyBody": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "total": { "type": "String" },
+      "topCategory": { "type": "String" },
+      "topAmount": { "type": "String" },
+      "goalLine": { "type": "String" },
+      "streak": { "type": "int" }
+    }
+  },
+  "insightWeeklyGoalLine": "Goal {name}: +{amount}. ",
+  "@insightWeeklyGoalLine": {
+    "placeholders": {
+      "name": { "type": "String" },
+      "amount": { "type": "String" }
+    }
+  },
+  "insightLatteTitle": "Coffee adds up",
+  "insightLatteBody": "You spent {month} on coffee this month. Sustained = {year}/year ☕️",
+  "@insightLatteBody": {
+    "placeholders": {
+      "month": { "type": "String" },
+      "year": { "type": "String" }
+    }
+  },
+  "insightLatteAction": "Try a what-if?",
+  "insightMoodTitle": "Mood matters",
+  "insightMoodBody": "On low-mood days you spend {ratio}× more than on good ones. A 24-hour rule might help next time 🌱"
+  ,
+  "@insightMoodBody": {
+    "placeholders": { "ratio": { "type": "String" } }
+  },
+
+  "navTogether": "Together",
+
+  "partnerSectionTitle": "Partner plan",
+  "partnerSoloPrompt": "link up to plan shared money — your own stuff stays yours 🌱",
+  "partnerEmailHint": "partner's email",
+  "partnerInviteCta": "invite partner",
+  "partnerInviteSentLabel": "invite sent to {email}",
+  "@partnerInviteSentLabel": {
+    "placeholders": { "email": { "type": "String" } }
+  },
+  "partnerUndo": "undo",
+  "partnerPendingOutbound": "waiting on {email} to accept",
+  "@partnerPendingOutbound": {
+    "placeholders": { "email": { "type": "String" } }
+  },
+  "partnerCancelInvite": "cancel invite",
+  "partnerInviteReceived": "{name} wants to grow money with you. join?",
+  "@partnerInviteReceived": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "partnerAcceptYes": "yes, let's",
+  "partnerAcceptNo": "not now",
+  "partnerLinkedSince": "linked with {name} since {date}",
+  "@partnerLinkedSince": {
+    "placeholders": {
+      "name": { "type": "String" },
+      "date": { "type": "String" }
+    }
+  },
+  "partnerUnlink": "unlink",
+
+  "partnerInviteOnItsWay": "sprout's on its way to {email} 🌱",
+  "@partnerInviteOnItsWay": {
+    "placeholders": { "email": { "type": "String" } }
+  },
+  "partnerInviteAccepted": "you two are now growing together. nice.",
+  "partnerInviteDeclined": "{name}'s sitting this one out for now.",
+  "@partnerInviteDeclined": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "partnerInviteCancelled": "invite pulled back. no worries.",
+  "partnerSharedCategoryHigh": "shared {category}'s tracking high this month — worth a chat.",
+  "@partnerSharedCategoryHigh": {
+    "placeholders": { "category": { "type": "String" } }
+  },
+  "partnerSharedMilestone": "you both did this. {goal} is {pct}% there ✨",
+  "@partnerSharedMilestone": {
+    "placeholders": {
+      "goal": { "type": "String" },
+      "pct": { "type": "int" }
+    }
+  },
+  "partnerSharedGoalComplete": "you grew {goal} all the way. proud of you both 🌳",
+  "@partnerSharedGoalComplete": {
+    "placeholders": { "goal": { "type": "String" } }
+  },
+  "partnerPotDeposit": "{amount} dropped into the pot. it's growing.",
+  "@partnerPotDeposit": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "partnerUnlinkConfirm": "sure? you'll keep your own stuff, just stop sharing totals.",
+  "partnerUnlinkDone": "unlinked. your sprout still has your back.",
+
+  "partnerErrAlreadyLinked": "you're already partnered up 🌱",
+  "partnerErrTargetLinked": "that person's already partnered with someone else",
+  "partnerErrEmailUnknown": "no sprout account for that email — invite them to sign up first",
+  "partnerErrInviteExpired": "this invite expired — ask them to send a fresh one",
+  "partnerErrNotSharedPot": "that goal isn't a shared pot",
+  "partnerErrGeneric": "something went sideways — give it another go",
+
+  "togetherSoloTitle": "grow money together",
+  "togetherSoloBody": "plan a trip, a home, a rainy-day fund — together, while your own money stays private.",
+  "togetherSoloCta": "link a partner",
+  "togetherHeader": "you & {name}",
+  "@togetherHeader": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "togetherSharedGoals": "shared goals",
+  "togetherSharedTxThisMonth": "shared this month",
+  "togetherSharedCategories": "shared categories",
+  "togetherNoSharedGoals": "no shared goals yet — start one below 🌱",
+  "togetherNoSharedTx": "no shared spends logged this month yet",
+  "togetherNoSharedCategories": "nothing shared yet — toggle a category to share its total",
+  "togetherWeeklyRecap": "this week you both saved {amount} toward {goal}",
+  "@togetherWeeklyRecap": {
+    "placeholders": {
+      "amount": { "type": "String" },
+      "goal": { "type": "String" }
+    }
+  },
+  "togetherRatesAsOf": "rates as of {date}",
+  "@togetherRatesAsOf": {
+    "placeholders": { "date": { "type": "String" } }
+  },
+  "togetherSeeAllGoals": "see all goals",
+  "togetherNewSharedGoal": "new shared goal",
+  "togetherManageShared": "manage what you share",
+  "togetherFromPartner": "from {name}",
+  "@togetherFromPartner": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "togetherFromYou": "shared by you",
+  "sharedCategoriesTitle": "share categories",
+  "sharedCategoriesSubtitle": "pick which of your categories your partner sees the monthly total for — never the individual buys 🌱",
+  "sharedCategoriesEmpty": "you don't have any categories yet",
+
+  "goalsTogetherSection": "Together",
+  "goalFundingSplit": "split",
+  "goalFundingPot": "shared pot",
+
+  "sharedGoalPotBalance": "pot balance",
+  "sharedGoalDeposit": "deposit",
+  "sharedGoalDepositTitle": "drop into the pot",
+  "sharedGoalContributions": "contributions",
+  "sharedGoalDepositFrom": "from",
+  "sharedGoalCreateTitle": "new shared goal",
+  "sharedGoalFundingQuestion": "how do you want to fund it?",
+  "sharedGoalModePotDesc": "one shared pot you both top up",
+  "sharedGoalModeSplitDesc": "each chips in from your own money",
+  "sharedGoalYou": "you",
+
+  "addTxShareWithPartner": "share with partner",
+  "addTxPaidBy": "paid by",
+  "addTxPaidByMe": "me",
+  "addTxPartnerSees": "your partner sees {amount} of this in their total",
+  "@addTxPartnerSees": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "addTxSplitLabel": "split",
+
+  "categoryShareToggle": "share total with partner",
+  "categoryShareHelper": "your partner sees the monthly total here, never individual buys",
+  "categoryShareLinkFirst": "link a partner first",
+
+  "unlinkResolveTitle": "before you unlink",
+  "unlinkResolveBody": "what should happen to your shared goals?",
+  "unlinkResolveAssignMe": "keep it — becomes mine",
+  "unlinkResolveAssignPartner": "give it to {name}",
+  "@unlinkResolveAssignPartner": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "unlinkResolveDelete": "delete it"
+}
